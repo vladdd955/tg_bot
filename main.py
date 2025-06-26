@@ -32,3 +32,5 @@ def echo(message):
         bot.send_message(message.chat.id, "Напиши /start и нажми кнопку геолокации 📍.")
 
 bot.polling(none_stop=True)
+
+
